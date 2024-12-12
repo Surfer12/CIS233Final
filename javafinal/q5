@@ -1,10 +1,18 @@
-For the binary tree shown below, provide the inorder, preorder, and postorder traversals.
+For the binary tree shown below, provide the
+inorder, preorder, and postorder traversals.
 
-preroder:
+preorder (root, left, right)
 
-inorder:
+in order (left, root, right)
 
-postorder:
+postorder (left, right, root)
+
+
+preroder: A, B, D, H, J, I, K, L, E, C, F, G, M
+
+inorder: J, H, D, I, K, L, B, E, A, M, G, F, C
+
+postorder: J, H, D, I, K, L, B, E, M, G, F, C, A
 
 
 Screenshot 2024-12-12 at 12.33.51.png
