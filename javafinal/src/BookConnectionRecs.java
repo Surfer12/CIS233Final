@@ -12,6 +12,10 @@ public class BookConnectionRecs {
 
     // We then create a main method to initialize our graph
 
+    // We then traverse our graph using a Depth-First Search (DFS) to determine the
+    // edges that are connecting each of the book as seen in our 'traversal of the
+    // graph' question where each node is visited and documented in the order they
+    // are visited.
 
 public static void main(final String[] args) {
 final Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
