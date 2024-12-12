@@ -1,16 +1,15 @@
+
 public enum BookConnectionRecsTitles {
-    enum
+
+    Enum BookConnectionRecsTitles
 {
-'a' = "The Clockwork Dragon"
-'b' = "Whispers of the Ancients"
-'c' = "The Sunken City"
-'d'  = "The Starfire Codex"
-'e' = "The Forgotten King"
-'f' = "Echoes of the Past"
-'h' = "The Obsidian Tower"
-'i' = "The Crimson Labyrinth"
-'j' = "The Wandering Woodsman"
-'k' = "The Hidden Valley"
-'l' = "Songs of the Forest"
+    final String a="The Clockwork Dragon",
+    final String b = "Whispers of the Ancients", String
+    c="The Sunken City",
+    String d = "The Starfire Codex", String e="The Forgotten King",
+    String f = "Echoes of the Past", String h="The Obsidian Tower",
+    String i = "The Crimson Labyrinth", String j="The Wandering Woodsman",
+    String k = "The Hidden Valley", String l="Songs of the Forest"
 }
 }
+
