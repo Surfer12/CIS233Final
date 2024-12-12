@@ -2,15 +2,21 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BookConnectionRecs {
+    // create our Hashmap that takes a map Map<Integer, Map<Integer, Integer>>
 
-    Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
+// Create our method that places the source and destination
 
+// Create our method that displays the results as a java adj list
+
+@Override
+
+    public void put(source int, destination int){
+//Todo override method to place
 }
 
+
 public static void main(final String[] args) {
-    final Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
-    // Add nodes and edges with weights
-    GraphOfNodes =
+final Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
 this.graph.put(a, new HashMap<>(Map.of(b, 1, c, 1, d, 1)));
  this.graph.put(b, new HashMap<>(Map.of(e,1 f,1);
   this.graph.put(c, new HashMap<>(Map.of();
