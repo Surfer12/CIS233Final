@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class App {
-    public static void main(final String[] args) throws Exception {
+    public static void main(final String[] args) {
         final Map<BookConnectionRecsTitles, Map<BookConnectionRecsTitles, Integer>> graph = new HashMap<>();
 
         // Add nodes and edges with weights
