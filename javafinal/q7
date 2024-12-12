@@ -1,5 +1,26 @@
 Find the shortest path from node 0 to node 4. Briefly explain your process.
 
+To find the shortest path from node 0 to node 4, we need to use the Dijkstra's algorithm.
+
+Step one is to initialize the distances of all nodes to infinity, except for the source node, which is set to 0.
+
+We asses all the neighbors of the source node, and the subsequent nodes and asses their current distances and add them to a distance array to understand the shortest distance to each node in the graph
+
+0 > 1 : Distance of four
+
+0 > 7 : Distance of eight
+
+and so on,
+
+Then we will find through the traversal of the graph through each node, that each node has a set "distance" from node 0.
+
+These are our final shortest distances to each node.
+
+We then look at this distance array and see what our shortest path to node 4 is.
+
+0 > 1 > 2 > 5 > 4. Distance 4 + 8 + 4 + 10 = 28.
+
+So we initally are going to
 
 
 
