@@ -39,3 +39,9 @@ graph.put(a, new HashMap<>(Map.of(b, 1, c, 1, d, 1)));
  * graph.put(g, new HashMap<>());
  * graph.put(h, new HashMap<>());
  * graph.put(i, new HashMap<>());
+
+question3
+Explain the choice of your data structure and algorithm. Also provide the time and space complexity of your solution.
+
+Use of the hashmap data structure for it's use of hashmap to initally store a key and then to store an additional value as an arraylist.
+

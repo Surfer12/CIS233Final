@@ -13,5 +13,11 @@ class Node {
 class BinaryTree {
     Node root;
 
-    // Add your pre-order traversal method here
+    void preordertraversal(node Root){
+        System.out.println(node.data); // process the node
+        preordertraversal(node.left);
+        preordertraversal(node.right);
+    }
+
+
 }
