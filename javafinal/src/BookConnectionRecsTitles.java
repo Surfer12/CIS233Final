@@ -1,18 +1,26 @@
 
-
 public enum BookConnectionRecsTitles {
-{
-    final String a = "The Clockwork Dragon";
-    final String b = "Whispers of the Ancients";
-    final String c = "The Sunken City";
-    final String d = "The Starfire Codex";
-    final String e = "The Forgotten King";
-    final String f = "Echoes of the Past";
-    final String h = "The Obsidian Tower";
-    final String i = "The Crimson Labyrinth";
-    final String j = "The Wandering Woodsman";
-    final String k = "The Hidden Valley";
-    final String l = "Songs of the Forest";
+    A("The Clockwork Dragon"),
+    B("Whispers of the Ancients"),
+    C("The Sunken City"),
+    D("The Starfire Codex"),
+    E("The Forgotten King"),
+    F("Echoes of the Past"),
+    H("The Obsidian Tower"),
+    I("The Crimson Labyrinth"),
+    J("The Wandering Woodsman"),
+    K("The Hidden Valley"),
+    L("Songs of the Forest");
+
+    private final String title;
+
+    BookConnectionRecsTitles(final String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
 }
 
 
