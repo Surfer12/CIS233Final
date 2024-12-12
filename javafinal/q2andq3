@@ -43,5 +43,13 @@ graph.put(a, new HashMap<>(Map.of(b, 1, c, 1, d, 1)));
 question3
 Explain the choice of your data structure and algorithm. Also provide the time and space complexity of your solution.
 
-Use of the hashmap data structure for it's use of hashmap to initally store a key and then to store an additional value as an arraylist.
+Use of the hashmap data structure for it's use of hashmap to initally store a key and then to store an additional values as an arraylist.
 
+The time complexity is o(v*e) as it is dependent on the input size. This is the number of verticies mulitplied by the number of edges.
+
+The space complexity is o(n) as it is dependent on the same factor, the number of verticies mulitplied by the number of edges.
+
+This time complexity and space complexity can be thought of as the same as o(n) of the input size.
+
+
+his time complexity and space complexity can be thought of as the same as o(n) of
