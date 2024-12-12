@@ -2,11 +2,40 @@ Alice is an avid reader with varied tastes. She finds that when she loves a book
 
 Alice recently finished and loved "The Clockwork Dragon".
 "The Clockwork Dragon" has thematic connections to "Whispers of the Ancients", "The Sunken City", and "The Starfire Codex".
+
 "Whispers of the Ancients" is similar in style to "The Forgotten King" and "Echoes of the Past".
+
 "Echoes of the Past" shares an author with "The Obsidian Tower" and "The Crimson Labyrinth".
+
 Separately, the library also has other books "The Wandering Woodsman", which shares an author with "The Hidden Valley" and "Songs of the Forest".
+
 Write a Java program to model these relationships and identify all the books Alice might enjoy based on her love for "The Clockwork Dragon".
 
 question3
 Explain the choice of your data structure and algorithm. Also provide the time and space complexity of your solution.
 
+
+class BookTitlesAsNodes
+enum {
+'a' = "The Clockwork Dragon"
+'b' = "Whispers of the Ancients"
+'c' = "The Sunken City"
+'d'  = "The Starfire Codex"
+'e' = "The Forgotten King"
+'f' = "Echoes of the Past"
+'h' = "The Obsidian Tower"
+'i' = "The Crimson Labyrinth"
+'j' = "The Wandering Woodsman"
+'k' = "The Hidden Valley"
+'l' = "Songs of the Forest"
+}
+
+graph.put(a, new HashMap<>(Map.of(b, 1, c, 1, d, 1)));
+ * graph.put(b, new HashMap<>(Map.of(a, 1, c, 1, e, d, 1);
+ * graph.put(c, new HashMap<>(Map.of(a, 1, b, 1, d, 1);
+ * graph.put(d, new HashMap<>(Map.of(a, 1, b, 1, c, 1,);
+ * graph.put(e, new HashMap<>());
+ * graph.put(f, new HashMap<>());
+ * graph.put(g, new HashMap<>());
+ * graph.put(h, new HashMap<>());
+ * graph.put(i, new HashMap<>());
