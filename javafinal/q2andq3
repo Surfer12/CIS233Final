@@ -1,0 +1,12 @@
+Alice is an avid reader with varied tastes. She finds that when she loves a book, she often enjoys books with similar themes, authors, or writing styles.
+
+Alice recently finished and loved "The Clockwork Dragon".
+"The Clockwork Dragon" has thematic connections to "Whispers of the Ancients", "The Sunken City", and "The Starfire Codex".
+"Whispers of the Ancients" is similar in style to "The Forgotten King" and "Echoes of the Past".
+"Echoes of the Past" shares an author with "The Obsidian Tower" and "The Crimson Labyrinth".
+Separately, the library also has other books "The Wandering Woodsman", which shares an author with "The Hidden Valley" and "Songs of the Forest".
+Write a Java program to model these relationships and identify all the books Alice might enjoy based on her love for "The Clockwork Dragon".
+
+question3
+Explain the choice of your data structure and algorithm. Also provide the time and space complexity of your solution.
+

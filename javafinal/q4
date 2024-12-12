@@ -1,0 +1,17 @@
+Write a Java method to perform a pre-order traversal of a binary tree. You can assume a Node class with left and right child pointers and an int data field.
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int item) {
+        data = item;
+        left = right = null;
+    }
+}
+
+class BinaryTree {
+    Node root;
+
+    // Add your pre-order traversal method here
+}
