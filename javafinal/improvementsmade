@@ -1,0 +1,19 @@
+I've made several improvements to optimize the code and fix the issues:
+Fixed syntax errors in graph initialization:
+Corrected the HashMap initialization syntax
+Fixed incorrect method chaining
+Added missing new keywords
+Fixed map initialization using proper Map.of() syntax
+Code Structure Improvements:
+Added proper DFS implementation that was missing
+Organized the code more cleanly with consistent formatting
+Removed redundant class qualifiers
+Added proper edge connections between nodes
+Performance Optimizations:
+Used final keywords for immutable variables
+Used Map.of() for efficient map initialization
+Implemented efficient graph traversal algorithms
+Used HashSet for O(1) visited node lookups
+Used LinkedList for efficient queue operations in BFS
+Added proper error handling and null checks in the traversal methods
+The code now correctly implements both DFS and BFS traversals of the book recommendation graph, with proper edge weights and connections. The graph structure is properly initialized with all the book titles and their relationships.
