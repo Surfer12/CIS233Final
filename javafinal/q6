@@ -1,3 +1,5 @@
+// Correct BFS and DFS
+
 Starting from node A, perform a Depth-First Search (DFS) and a Breadth-First Search (BFS) on the graph below. List the nodes in the order they are visited for each traversal
 
 Depth-First Search (DFS):

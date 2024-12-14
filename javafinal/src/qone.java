@@ -1,13 +1,16 @@
-/* Given this code snippet, draw the graph representation and upload a picture of your graph.
-NB: It is a weighted graph
+/*
+ * Given this code snippet, draw the graph representation and upload a picture
+ * of your graph.
+ * NB: It is a weighted graph
+ * // Correct graph
  */
 
 // TODO Draw this image
 /*
- * 
- * 
+ *
+ *
  * Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
- * 
+ *
  * // Add nodes and edges with weights
  * graph.put(1, new HashMap<>(Map.of(2, 4, 3, 2)));
  * graph.put(2, new HashMap<>(Map.of(4, 5, 5, 1)));

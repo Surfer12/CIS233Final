@@ -1,3 +1,7 @@
+// Wrong shortest path...
+
+
+
 Find the shortest path from node 0 to node 4. Briefly explain your process.
 
 To find the shortest path from node 0 to node 4, we need to use the Dijkstra's algorithm.
@@ -18,9 +22,7 @@ These are our final shortest distances to each node.
 
 We then look at this distance array and see what our shortest path to node 4 is.
 
-0 > 1 > 2 > 5 > 4. Distance 4 + 8 + 4 + 10 = 28.
-
-So we initally are going to
+0 > 7 > 6 > 5 > 4. Distance 8 + 1 + 2 + 10 = 21
 
 
 
